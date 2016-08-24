@@ -1,0 +1,6 @@
+package: github.com/drud/yamlshell
+import:
+- package: github.com/mattn/go-shellwords
+  version: ~1.0.0
+- package: github.com/spf13/cobra
+- package: gopkg.in/yaml.v2
