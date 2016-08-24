@@ -1,0 +1,8 @@
+run:
+    # Run from current working directory
+    - commands: 
+      - "echo $FOO"
+    # Execute from another location
+    - workdir: "/path/to/working/directory"
+      commands: 
+      - ls -alh
